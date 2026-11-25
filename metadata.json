@@ -1,0 +1,6 @@
+{
+  "name": "Animal Pet – Dra. Virginia Montenegro",
+  "description": "Clínica veterinária e pet shop em Jaboatão dos Guararapes – PE. Há 19 anos cuidando do seu melhor amigo com consultas, exames, farmácia veterinária, banho e tosa, pet shop e táxi dog.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

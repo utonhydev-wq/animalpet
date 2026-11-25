@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal Pet – Dra. Virginia Montenegro | Clínica Veterinária e Pet Shop em Jaboatão dos Guararapes</title>
+    <meta
+      name="description"
+      content="Na Animal Pet – Dra. Virginia Montenegro, seu melhor amigo recebe cuidado há 19 anos. Clínica veterinária, exames, farmácia veterinária, banho e tosa, pet shop e táxi dog em Santo Aleixo, Jaboatão dos Guararapes – PE."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#156E46" />
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Animal Pet – Dra. Virginia Montenegro | Clínica Veterinária e Pet Shop"
+    />
+    <meta
+      property="og:description"
+      content="Há 19 anos cuidando de quem faz parte da sua família em Jaboatão dos Guararapes – PE. Consultas veterinárias, exames, farmácia, banho e tosa, pet shop e táxi dog."
+    />
+    <meta
+      property="og:image"
+      content="https://i.postimg.cc/d12xWNdR/logo-animalpet.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link
+      rel="icon"
+      type="image/jpeg"
+      href="https://i.postimg.cc/d12xWNdR/logo-animalpet.jpg"
+    />
+
+    <!-- Typography: Fraunces (Editorial Display) + Plus Jakarta Sans (Clean Modern UI) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Local Business Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "VeterinaryCare",
+        "name": "Animal Pet – Dra. Virginia Montenegro",
+        "description": "Clínica veterinária e pet shop com 19 anos de dedicação aos animais em Jaboatão dos Guararapes – PE.",
+        "image": "https://i.postimg.cc/d12xWNdR/logo-animalpet.jpg",
+        "telephone": "+55-81-98840-5049",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Santo Aleixo, 265",
+          "addressLocality": "Jaboatão dos Guararapes",
+          "addressRegion": "PE",
+          "addressCountry": "BR"
+        },
+        "sameAs": [
+          "https://www.instagram.com/animalpet_dravirginia/"
+        ]
+      }
+    </script>
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('animalpet-theme');
+          var prefersDark =
+            window.matchMedia &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var isDark = saved ? saved === 'dark' : prefersDark;
+          var root = document.documentElement;
+          root.classList.toggle('dark', isDark);
+          root.style.colorScheme = isDark ? 'dark' : 'light';
+          var meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) {
+            meta.setAttribute('content', isDark ? '#0F1412' : '#156E46');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="overflow-x-clip bg-white text-[#12231B] antialiased transition-colors duration-200 selection:bg-[#156E46]/15 selection:text-[#0F4C30] dark:bg-[#0F1412] dark:text-[#F2F7F4] dark:selection:bg-[#5FD19B]/25 dark:selection:text-[#EAF8F1]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
